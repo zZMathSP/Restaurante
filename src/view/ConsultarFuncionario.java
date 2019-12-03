@@ -188,7 +188,7 @@ public class ConsultarFuncionario extends javax.swing.JInternalFrame {
                 sql = sql + " and nome LIKE ?";
             PreparedStatement stmt = con.prepareStatement(sql);
             if(!txtNome.getText().equals(""))
-                stmt.setString(2, "%"+txtNome.getText()+"%");
+                stmt.setString(1, "%"+txtNome.getText()+"%");
             ResultSet rs = stmt.executeQuery();
             DefaultTableModel model = (DefaultTableModel) jtCliente.getModel();
             model.setNumRows(0);
