@@ -183,7 +183,7 @@ public class ConsultarCliente extends javax.swing.JInternalFrame {
             Connection con = DriverManager.getConnection("jdbc:mysql://localhost/restaurante","root","root");
             String sql = "select * from pessoa ";
             if(!txtNome.getText().equals(""))
-                sql = sql + " where nome LIKE ? ";
+                sql = sql + " where nome LIKE ? and numCarteira is null";
             PreparedStatement stmt = con.prepareStatement(sql);
             if(!txtNome.getText().equals(""))
                 stmt.setString(1, "%"+txtNome.getText()+"%");

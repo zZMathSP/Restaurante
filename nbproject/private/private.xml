@@ -3,9 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/mathe/OneDrive/Documentos/Semestre%206/POO/sub/Restaurante/src/view/ConsultarFuncionario.java</file>
-            <file>file:/C:/Users/mathe/OneDrive/Documentos/Semestre%206/POO/sub/Restaurante/src/view/CadastrarFuncionario.java</file>
-            <file>file:/C:/Users/mathe/OneDrive/Documentos/Semestre%206/POO/sub/Restaurante/src/view/CadastrarPedido.java</file>
+            <file>file:/C:/Users/mathe/OneDrive/Documentos/GitHub/Restaurante/src/control/CadastroProdutos.java</file>
+            <file>file:/C:/Users/mathe/OneDrive/Documentos/GitHub/Restaurante/src/view/CadastrarCliente.java</file>
+            <file>file:/C:/Users/mathe/OneDrive/Documentos/GitHub/Restaurante/src/view/ConsultarCliente.java</file>
+            <file>file:/C:/Users/mathe/OneDrive/Documentos/GitHub/Restaurante/src/view/ConsultarProduto.java</file>
+            <file>file:/C:/Users/mathe/OneDrive/Documentos/GitHub/Restaurante/src/control/CadastroCliente.java</file>
         </group>
     </open-files>
 </project-private>

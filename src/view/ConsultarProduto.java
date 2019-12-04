@@ -12,6 +12,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import javax.swing.JDesktopPane;
 import javax.swing.JOptionPane;
+import javax.swing.JTable;
 import javax.swing.table.DefaultTableModel;
 
 /**
@@ -194,7 +195,7 @@ public class ConsultarProduto extends javax.swing.JInternalFrame {
             DefaultTableModel model = (DefaultTableModel) jtCliente.getModel();
             model.setNumRows(0);
             while(rs.next()){
-                String[] linha = {rs.getString("idProduto"), rs.getString("nome"),
+                String[] linha = {rs.getString("idProduto"), rs.getString("Nome"),
                     rs.getString("categoria") };
                 model.addRow(linha);
             }
@@ -235,7 +236,13 @@ public class ConsultarProduto extends javax.swing.JInternalFrame {
         cadastrarProduto.setVisible(true);
     }//GEN-LAST:event_jButton3ActionPerformed
 
-    
+    public JTable getJtCliente() {
+        return jtCliente;
+    }
+
+    public void setJtCliente(JTable jtCliente) {
+        this.jtCliente = jtCliente;
+    }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton Cancelar;
